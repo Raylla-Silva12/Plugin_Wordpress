@@ -1,0 +1,572 @@
+2022-02-20 01:44:51 9024 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 01:44:51 9024 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 01:44:51 9024 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 01:44:51 9024 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 01:44:51 9024 [Note] InnoDB: Memory barrier is not used
+2022-02-20 01:44:51 9024 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 01:44:51 9024 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 01:44:51 9024 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 01:44:51 9024 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 01:44:51 9024 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 size to 5 MB
+2022-02-20 01:44:51 9024 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile1 size to 5 MB
+2022-02-20 01:44:51 9024 [Note] InnoDB: Renaming log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 to C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile0
+2022-02-20 01:44:51 9024 [Warning] InnoDB: New log files created, LSN=1626134
+2022-02-20 01:44:51 9024 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 01:44:51 2aa8 InnoDB: Error: page 5 log sequence number 1626646
+InnoDB: is in the future! Current system log sequence number 1626636.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2022-02-20 01:44:51 9024 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 01:44:51 9024 [Note] InnoDB: Waiting for purge to start
+2022-02-20 01:44:51 9024 [Note] InnoDB: 5.6.34 started; log sequence number 1626636
+2022-02-20 01:44:51 9024 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: ee828a20-91dd-11ec-aa07-00ff1156f192.
+2022-02-20 01:44:51 9024 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 01:44:51 9024 [Note] IPv6 is available.
+2022-02-20 01:44:51 9024 [Note]   - '::' resolves to '::';
+2022-02-20 01:44:51 9024 [Note] Server socket created on IP: '::'.
+2022-02-20 01:44:51 9024 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 01:44:51 9024 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20 01:47:21 8256 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 01:47:21 8256 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 01:47:21 8256 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 01:47:21 8256 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 01:47:21 8256 [Note] InnoDB: Memory barrier is not used
+2022-02-20 01:47:21 8256 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 01:47:21 8256 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 01:47:21 8256 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 01:47:21 8256 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 01:47:21 8256 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 01:47:21 8256 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626646 in the ib_logfiles!
+2022-02-20 01:47:21 8256 [Note] InnoDB: Database was not shutdown normally!
+2022-02-20 01:47:21 8256 [Note] InnoDB: Starting crash recovery.
+2022-02-20 01:47:21 8256 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-02-20 01:47:21 8256 [Note] InnoDB: Restoring possible half-written data pages 
+2022-02-20 01:47:21 8256 [Note] InnoDB: from the doublewrite buffer...
+2022-02-20 01:47:21 8256 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 01:47:21 8256 [Note] InnoDB: Waiting for purge to start
+2022-02-20 01:47:21 8256 [Note] InnoDB: 5.6.34 started; log sequence number 1626646
+2022-02-20 01:47:21 8256 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 01:47:21 8256 [Note] IPv6 is available.
+2022-02-20 01:47:21 8256 [Note]   - '::' resolves to '::';
+2022-02-20 01:47:21 8256 [Note] Server socket created on IP: '::'.
+2022-02-20 01:47:21 8256 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 01:47:21 8256 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20 01:58:54 5928 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 01:58:54 5928 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 01:58:54 5928 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 01:58:54 5928 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 01:58:54 5928 [Note] InnoDB: Memory barrier is not used
+2022-02-20 01:58:54 5928 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 01:58:54 5928 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 01:58:54 5928 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 01:58:54 5928 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 01:58:54 5928 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 01:58:54 5928 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626656 in the ib_logfiles!
+2022-02-20 01:58:54 5928 [Note] InnoDB: Database was not shutdown normally!
+2022-02-20 01:58:54 5928 [Note] InnoDB: Starting crash recovery.
+2022-02-20 01:58:54 5928 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-02-20 01:58:54 5928 [Note] InnoDB: Restoring possible half-written data pages 
+2022-02-20 01:58:54 5928 [Note] InnoDB: from the doublewrite buffer...
+2022-02-20 01:58:54 5928 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 01:58:54 5928 [Note] InnoDB: Waiting for purge to start
+2022-02-20 01:58:54 5928 [Note] InnoDB: 5.6.34 started; log sequence number 1626656
+2022-02-20 01:58:54 5928 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 01:58:54 5928 [Note] IPv6 is available.
+2022-02-20 01:58:54 5928 [Note]   - '::' resolves to '::';
+2022-02-20 01:58:54 5928 [Note] Server socket created on IP: '::'.
+2022-02-20 01:58:54 5928 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 01:58:54 5928 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20 02:08:52 3456 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 02:08:52 3456 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 02:08:52 3456 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 02:08:52 3456 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 02:08:52 3456 [Note] InnoDB: Memory barrier is not used
+2022-02-20 02:08:52 3456 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 02:08:52 3456 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 02:08:52 3456 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 02:08:52 3456 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 02:08:52 3456 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 02:08:52 3456 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626666 in the ib_logfiles!
+2022-02-20 02:08:52 3456 [Note] InnoDB: Database was not shutdown normally!
+2022-02-20 02:08:52 3456 [Note] InnoDB: Starting crash recovery.
+2022-02-20 02:08:52 3456 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-02-20 02:08:52 3456 [Note] InnoDB: Restoring possible half-written data pages 
+2022-02-20 02:08:52 3456 [Note] InnoDB: from the doublewrite buffer...
+2022-02-20 02:08:53 3456 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 02:08:53 3456 [Note] InnoDB: Waiting for purge to start
+2022-02-20 02:08:53 3456 [Note] InnoDB: 5.6.34 started; log sequence number 1626666
+2022-02-20 02:08:53 3456 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 02:08:53 3456 [Note] IPv6 is available.
+2022-02-20 02:08:53 3456 [Note]   - '::' resolves to '::';
+2022-02-20 02:08:53 3456 [Note] Server socket created on IP: '::'.
+2022-02-20 02:08:53 3456 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 02:08:53 3456 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20 02:13:08 10448 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 02:13:08 10448 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 02:13:08 10448 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 02:13:08 10448 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 02:13:08 10448 [Note] InnoDB: Memory barrier is not used
+2022-02-20 02:13:08 10448 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 02:13:08 10448 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 02:13:08 10448 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 02:13:08 10448 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 02:13:08 10448 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 02:13:08 10448 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626676 in the ib_logfiles!
+2022-02-20 02:13:08 10448 [Note] InnoDB: Database was not shutdown normally!
+2022-02-20 02:13:08 10448 [Note] InnoDB: Starting crash recovery.
+2022-02-20 02:13:08 10448 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-02-20 02:13:08 10448 [Note] InnoDB: Restoring possible half-written data pages 
+2022-02-20 02:13:08 10448 [Note] InnoDB: from the doublewrite buffer...
+2022-02-20 02:13:08 10448 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 02:13:08 10448 [Note] InnoDB: Waiting for purge to start
+2022-02-20 02:13:08 10448 [Note] InnoDB: 5.6.34 started; log sequence number 1626676
+2022-02-20 02:13:08 10448 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 02:13:08 10448 [Note] IPv6 is available.
+2022-02-20 02:13:08 10448 [Note]   - '::' resolves to '::';
+2022-02-20 02:13:08 10448 [Note] Server socket created on IP: '::'.
+2022-02-20 02:13:08 10448 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 02:13:08 10448 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20 02:28:03 7984 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 02:28:03 7984 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 02:28:03 7984 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 02:28:03 7984 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 02:28:03 7984 [Note] InnoDB: Memory barrier is not used
+2022-02-20 02:28:03 7984 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 02:28:03 7984 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 02:28:03 7984 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 02:28:03 7984 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 02:28:03 7984 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 02:28:03 7984 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626686 in the ib_logfiles!
+2022-02-20 02:28:03 7984 [Note] InnoDB: Database was not shutdown normally!
+2022-02-20 02:28:03 7984 [Note] InnoDB: Starting crash recovery.
+2022-02-20 02:28:03 7984 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-02-20 02:28:03 7984 [Note] InnoDB: Restoring possible half-written data pages 
+2022-02-20 02:28:03 7984 [Note] InnoDB: from the doublewrite buffer...
+2022-02-20 02:28:04 7984 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 02:28:04 7984 [Note] InnoDB: Waiting for purge to start
+2022-02-20 02:28:04 7984 [Note] InnoDB: 5.6.34 started; log sequence number 1626686
+2022-02-20 02:28:04 7984 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 02:28:04 7984 [Note] IPv6 is available.
+2022-02-20 02:28:04 7984 [Note]   - '::' resolves to '::';
+2022-02-20 02:28:04 7984 [Note] Server socket created on IP: '::'.
+2022-02-20 02:28:04 7984 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 02:28:04 7984 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20T00:51:17.794584Z 0 [System] [MY-010116] [Server] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 8.0.28) starting as process 4744
+2022-02-20T00:51:17.794585Z 0 [ERROR] [MY-010340] [Server] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages, but it should contain at least 5548 error messages. Check that the above file is the right version for this program!
+2022-02-20T00:51:17.814584Z 1 [System] [MY-011012] [Server] Starting upgrade of data directory.
+2022-02-20T00:51:17.824582Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-02-20T00:51:17.954582Z 1 [ERROR] [MY-013090] [InnoDB] Unsupported redo log format (0). The redo log was created before MySQL 5.7.9
+2022-02-20T00:51:17.954583Z 1 [ERROR] [MY-012930] [InnoDB] Plugin initialization aborted with error Generic error.
+2022-02-20T00:51:17.984582Z 1 [ERROR] [MY-011013] [Server] Failed to initialize DD Storage Engine.
+2022-02-20T00:51:17.984583Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2022-02-20T00:51:17.984584Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-02-20T00:51:17.984590Z 0 [System] [MY-010910] [Server] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: Shutdown complete (mysqld 8.0.28)  MySQL Community Server - GPL.
+2022-02-20 02:51:51 5792 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20 02:51:51 5792 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2022-02-20 02:51:51 5792 [Note] InnoDB: The InnoDB memory heap is disabled
+2022-02-20 02:51:51 5792 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20 02:51:51 5792 [Note] InnoDB: Memory barrier is not used
+2022-02-20 02:51:51 5792 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-02-20 02:51:51 5792 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20 02:51:51 5792 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2022-02-20 02:51:51 5792 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20 02:51:51 5792 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20 02:51:51 5792 [Note] InnoDB: The log sequence numbers 1626134 and 1626134 in ibdata files do not match the log sequence number 1626696 in the ib_logfiles!
+2022-02-20 02:51:51 5792 [Note] InnoDB: Database was not shutdown normally!
+2022-02-20 02:51:51 5792 [Note] InnoDB: Starting crash recovery.
+2022-02-20 02:51:51 5792 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2022-02-20 02:51:51 5792 [Note] InnoDB: Restoring possible half-written data pages 
+2022-02-20 02:51:51 5792 [Note] InnoDB: from the doublewrite buffer...
+2022-02-20 02:51:51 5792 [Note] InnoDB: 128 rollback segment(s) are active.
+2022-02-20 02:51:51 5792 [Note] InnoDB: Waiting for purge to start
+2022-02-20 02:51:51 5792 [Note] InnoDB: 5.6.34 started; log sequence number 1626696
+2022-02-20 02:51:51 5792 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20 02:51:51 5792 [Note] IPv6 is available.
+2022-02-20 02:51:51 5792 [Note]   - '::' resolves to '::';
+2022-02-20 02:51:51 5792 [Note] Server socket created on IP: '::'.
+2022-02-20 02:51:51 5792 [Note] Event Scheduler: Loaded 0 events
+2022-02-20 02:51:51 5792 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.34'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-02-20T00:57:38.164397Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-20T00:57:38.165397Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-02-20T00:57:38.166397Z 0 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 6880 ...
+2022-02-20T00:57:38.167397Z 0 [ERROR] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-02-20T00:57:38.179398Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20T00:57:38.180398Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-20T00:57:38.180398Z 0 [Note] InnoDB: Memory barrier is not used
+2022-02-20T00:57:38.180398Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-20T00:57:38.181398Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-20T00:57:38.182398Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20T00:57:38.186398Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-20T00:57:38.199399Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20T00:57:38.227400Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-02-20T00:57:38.274403Z 0 [Warning] InnoDB: Upgrading redo log: 2*320 pages, LSN=1626706
+2022-02-20T00:57:38.377409Z 0 [Warning] InnoDB: Starting to delete and rewrite log files.
+2022-02-20T00:57:38.385409Z 0 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 size to 5 MB
+2022-02-20T00:57:38.397410Z 0 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile1 size to 5 MB
+2022-02-20T00:57:38.417411Z 0 [Note] InnoDB: Renaming log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 to C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile0
+2022-02-20T00:57:38.423412Z 0 [Warning] InnoDB: New log files created, LSN=1626706
+2022-02-20T00:57:38.424412Z 0 [Note] InnoDB: Successfully reset 32 pre-5.7.2 rseg slots.
+2022-02-20T00:57:38.425412Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-20T00:57:38.425412Z 0 [Note] InnoDB: Setting file 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-20T00:57:38.452413Z 0 [Note] InnoDB: File 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibtmp1' size is now 12 MB.
+2022-02-20T00:57:38.457414Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-20T00:57:38.458414Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-20T00:57:38.458414Z 0 [Note] InnoDB: Creating sys_virtual system tables.
+2022-02-20T00:57:38.460414Z 0 [Note] InnoDB: sys_virtual table created
+2022-02-20T00:57:38.461414Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-20T00:57:38.512417Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 0
+2022-02-20T00:57:38.513417Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20T00:57:38.516417Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2022-02-20T00:57:38.517417Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-02-20T00:57:38.519417Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_buffer_pool
+2022-02-20T00:57:38.522417Z 0 [ERROR] InnoDB: Cannot open 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_buffer_pool' for reading: No such file or directory
+2022-02-20T00:57:42.605651Z 0 [Note] Auto generated SSL certificates are placed in data directory.
+2022-02-20T00:57:42.606651Z 0 [Warning] 
+2022-02-20T00:57:42.606651Z 0 [Warning] 
+2022-02-20T00:57:42.607651Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-20T00:57:43.400696Z 0 [Note] Auto generated RSA key files are placed in data directory.
+2022-02-20T00:57:43.401696Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20T00:57:43.402696Z 0 [Note] IPv6 is available.
+2022-02-20T00:57:43.403696Z 0 [Note]   - '::' resolves to '::';
+2022-02-20T00:57:43.403696Z 0 [Note] Server socket created on IP: '::'.
+2022-02-20T00:57:43.405697Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-02-20T00:57:43.455699Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2022-02-20T00:57:43.456700Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2022-02-20T00:57:43.457700Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2022-02-20T00:57:43.457700Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2022-02-20T00:57:43.458700Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2022-02-20T00:57:43.460700Z 0 [Warning] System table 'servers' is expected to be transactional.
+2022-02-20T00:57:43.469700Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-02-20T00:57:43.473700Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-02-20T00:57:43.473700Z 0 [Note] Failed to start slave threads for channel ''
+2022-02-20T00:57:43.474701Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T00:57:43.476701Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T00:57:43.477701Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T00:57:43.479701Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.480701Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.482701Z 0 [ERROR] 
+2022-02-20T00:57:43.483701Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2022-02-20T00:57:43.484701Z 0 [ERROR] 
+2022-02-20T00:57:43.485701Z 0 [ERROR] 
+2022-02-20T00:57:43.485701Z 0 [ERROR] 
+2022-02-20T00:57:43.486701Z 0 [ERROR] 
+2022-02-20T00:57:43.486701Z 0 [ERROR] 
+2022-02-20T00:57:43.487701Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.488701Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.489701Z 0 [ERROR] 
+2022-02-20T00:57:43.490701Z 0 [ERROR] 
+2022-02-20T00:57:43.490701Z 0 [ERROR] 
+2022-02-20T00:57:43.491702Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.492702Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.493702Z 0 [ERROR] 
+2022-02-20T00:57:43.494702Z 0 [ERROR] 
+2022-02-20T00:57:43.494702Z 0 [ERROR] 
+2022-02-20T00:57:43.494702Z 0 [ERROR] 
+2022-02-20T00:57:43.495702Z 0 [ERROR] 
+2022-02-20T00:57:43.495702Z 0 [ERROR] 
+2022-02-20T00:57:43.495702Z 0 [ERROR] 
+2022-02-20T00:57:43.496702Z 0 [ERROR] 
+2022-02-20T00:57:43.496702Z 0 [ERROR] 
+2022-02-20T00:57:43.497702Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.498702Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:57:43.499702Z 0 [ERROR] 
+2022-02-20T00:57:43.500702Z 0 [ERROR] 
+2022-02-20T00:57:43.500702Z 0 [ERROR] 
+2022-02-20T00:57:43.500702Z 0 [ERROR] 
+2022-02-20T00:57:43.501702Z 0 [ERROR] 
+2022-02-20T00:57:43.501702Z 0 [ERROR] 
+2022-02-20T00:57:43.501702Z 0 [ERROR] 
+2022-02-20T00:57:43.502702Z 0 [ERROR] 
+2022-02-20T00:57:43.502702Z 0 [ERROR] 
+2022-02-20T00:57:43.502702Z 0 [ERROR] 
+2022-02-20T00:57:43.503702Z 0 [ERROR] 
+2022-02-20T00:57:43.503702Z 0 [ERROR] 
+2022-02-20T00:57:43.503702Z 0 [ERROR] 
+2022-02-20T00:57:43.504702Z 0 [ERROR] 
+2022-02-20T00:57:43.504702Z 0 [ERROR] 
+2022-02-20T00:57:43.504702Z 0 [ERROR] 
+2022-02-20T00:57:43.505702Z 0 [ERROR] 
+2022-02-20T00:57:43.505702Z 0 [ERROR] 
+2022-02-20T00:57:43.505702Z 0 [ERROR] 
+2022-02-20T00:57:43.506702Z 0 [ERROR] 
+2022-02-20T00:57:43.506702Z 0 [ERROR] 
+2022-02-20T00:57:43.506702Z 0 [ERROR] 
+2022-02-20T00:57:43.507702Z 0 [ERROR] 
+2022-02-20T00:57:43.507702Z 0 [ERROR] 
+2022-02-20T00:57:43.507702Z 0 [ERROR] 
+2022-02-20T00:57:43.508703Z 0 [ERROR] 
+2022-02-20T00:57:43.508703Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2022-02-20T00:57:43.509703Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2022-02-20T00:57:43.510703Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2022-02-20T00:57:43.511703Z 0 [Note] 
+2022-02-20T00:58:01.944757Z 2 [ERROR] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\russian\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-02-20T00:59:43.512566Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-20T00:59:43.512566Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-02-20T00:59:43.512566Z 0 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 6904 ...
+2022-02-20T00:59:43.514566Z 0 [ERROR] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-02-20T00:59:43.526567Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20T00:59:43.527567Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-20T00:59:43.528567Z 0 [Note] InnoDB: Memory barrier is not used
+2022-02-20T00:59:43.528567Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-20T00:59:43.529567Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-20T00:59:43.530567Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20T00:59:43.534568Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-20T00:59:43.547568Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20T00:59:43.560569Z 0 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2022-02-20T00:59:43.561569Z 0 [Note] InnoDB: Setting file 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibdata1' size to 10 MB. Physically writing the file full; Please wait ...
+2022-02-20T00:59:43.585571Z 0 [Note] InnoDB: File 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibdata1' size is now 10 MB.
+2022-02-20T00:59:43.594571Z 0 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 size to 5 MB
+2022-02-20T00:59:43.607572Z 0 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile1 size to 5 MB
+2022-02-20T00:59:43.633573Z 0 [Note] InnoDB: Renaming log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 to C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile0
+2022-02-20T00:59:43.637573Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2022-02-20T00:59:43.638574Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-20T00:59:43.639574Z 0 [Note] InnoDB: Setting file 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-20T00:59:43.669575Z 0 [Note] InnoDB: File 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibtmp1' size is now 12 MB.
+2022-02-20T00:59:43.675576Z 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2022-02-20T00:59:43.691577Z 0 [Note] InnoDB: Doublewrite buffer created
+2022-02-20T00:59:43.842585Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-20T00:59:43.851586Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-20T00:59:43.852586Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2022-02-20T00:59:43.861586Z 0 [Note] InnoDB: Foreign key constraint system tables created
+2022-02-20T00:59:43.862586Z 0 [Note] InnoDB: Creating tablespace and datafile system tables.
+2022-02-20T00:59:43.863586Z 0 [Note] InnoDB: Tablespace and datafile system tables created.
+2022-02-20T00:59:43.863586Z 0 [Note] InnoDB: Creating sys_virtual system tables.
+2022-02-20T00:59:43.865587Z 0 [Note] InnoDB: sys_virtual table created
+2022-02-20T00:59:43.866587Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-20T00:59:43.917589Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 0
+2022-02-20T00:59:43.918590Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20T00:59:43.922590Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2022-02-20T00:59:43.924590Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-02-20T00:59:43.927590Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-20T00:59:43.928590Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-20T00:59:43.929590Z 0 [Warning] 
+2022-02-20T00:59:43.930590Z 0 [Warning] 
+2022-02-20T00:59:43.932590Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-20T00:59:43.933590Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-20T00:59:43.934590Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20T00:59:43.936591Z 0 [Note] IPv6 is available.
+2022-02-20T00:59:43.936591Z 0 [Note]   - '::' resolves to '::';
+2022-02-20T00:59:43.937591Z 0 [Note] Server socket created on IP: '::'.
+2022-02-20T00:59:43.939591Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-02-20T00:59:43.988594Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2022-02-20T00:59:43.989594Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2022-02-20T00:59:43.990594Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2022-02-20T00:59:43.991594Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2022-02-20T00:59:43.992594Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2022-02-20T00:59:43.995594Z 0 [Warning] System table 'servers' is expected to be transactional.
+2022-02-20T00:59:43.996594Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T00:59:43.998594Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T00:59:43.999594Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T00:59:44.000594Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-02-20T00:59:44.001594Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T00:59:44.003594Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T00:59:44.005595Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-02-20T00:59:44.006595Z 0 [Note] Failed to start slave threads for channel ''
+2022-02-20T00:59:44.007595Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T00:59:44.009595Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T00:59:44.011595Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T00:59:44.014595Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.015595Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.018595Z 0 [ERROR] 
+2022-02-20T00:59:44.018595Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2022-02-20T00:59:44.020595Z 0 [ERROR] 
+2022-02-20T00:59:44.021595Z 0 [ERROR] 
+2022-02-20T00:59:44.021595Z 0 [ERROR] 
+2022-02-20T00:59:44.021595Z 0 [ERROR] 
+2022-02-20T00:59:44.022596Z 0 [ERROR] 
+2022-02-20T00:59:44.022596Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.023596Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.025596Z 0 [ERROR] 
+2022-02-20T00:59:44.026596Z 0 [ERROR] 
+2022-02-20T00:59:44.026596Z 0 [ERROR] 
+2022-02-20T00:59:44.027596Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.029596Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.030596Z 0 [ERROR] 
+2022-02-20T00:59:44.031596Z 0 [ERROR] 
+2022-02-20T00:59:44.031596Z 0 [ERROR] 
+2022-02-20T00:59:44.031596Z 0 [ERROR] 
+2022-02-20T00:59:44.032596Z 0 [ERROR] 
+2022-02-20T00:59:44.032596Z 0 [ERROR] 
+2022-02-20T00:59:44.032596Z 0 [ERROR] 
+2022-02-20T00:59:44.033596Z 0 [ERROR] 
+2022-02-20T00:59:44.033596Z 0 [ERROR] 
+2022-02-20T00:59:44.034596Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.035596Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T00:59:44.037596Z 0 [ERROR] 
+2022-02-20T00:59:44.038596Z 0 [ERROR] 
+2022-02-20T00:59:44.038596Z 0 [ERROR] 
+2022-02-20T00:59:44.039596Z 0 [ERROR] 
+2022-02-20T00:59:44.039596Z 0 [ERROR] 
+2022-02-20T00:59:44.039596Z 0 [ERROR] 
+2022-02-20T00:59:44.040597Z 0 [ERROR] 
+2022-02-20T00:59:44.040597Z 0 [ERROR] 
+2022-02-20T00:59:44.041597Z 0 [ERROR] 
+2022-02-20T00:59:44.041597Z 0 [ERROR] 
+2022-02-20T00:59:44.041597Z 0 [ERROR] 
+2022-02-20T00:59:44.042597Z 0 [ERROR] 
+2022-02-20T00:59:44.042597Z 0 [ERROR] 
+2022-02-20T00:59:44.043597Z 0 [ERROR] 
+2022-02-20T00:59:44.043597Z 0 [ERROR] 
+2022-02-20T00:59:44.043597Z 0 [ERROR] 
+2022-02-20T00:59:44.044597Z 0 [ERROR] 
+2022-02-20T00:59:44.044597Z 0 [ERROR] 
+2022-02-20T00:59:44.044597Z 0 [ERROR] 
+2022-02-20T00:59:44.045597Z 0 [ERROR] 
+2022-02-20T00:59:44.045597Z 0 [ERROR] 
+2022-02-20T00:59:44.045597Z 0 [ERROR] 
+2022-02-20T00:59:44.046597Z 0 [ERROR] 
+2022-02-20T00:59:44.046597Z 0 [ERROR] 
+2022-02-20T00:59:44.047597Z 0 [ERROR] 
+2022-02-20T00:59:44.047597Z 0 [ERROR] 
+2022-02-20T00:59:44.048597Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2022-02-20T00:59:44.049597Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2022-02-20T00:59:44.051597Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2022-02-20T00:59:44.052597Z 0 [Note] 
+2022-02-20T00:59:50.091943Z 2 [ERROR] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\russian\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-02-20T01:01:56.424168Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-02-20T01:01:56.424168Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-02-20T01:01:56.425168Z 0 [Note] C:\Users\nemo\Documents\usbwebserver/mysql/bin/mysqld_usbwv8.exe (mysqld 5.7.36) starting as process 4408 ...
+2022-02-20T01:01:56.426169Z 0 [ERROR] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\english\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!
+2022-02-20T01:01:56.438169Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-02-20T01:01:56.439169Z 0 [Note] InnoDB: Uses event mutexes
+2022-02-20T01:01:56.440169Z 0 [Note] InnoDB: Memory barrier is not used
+2022-02-20T01:01:56.440169Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-20T01:01:56.441169Z 0 [Note] InnoDB: Number of pools: 1
+2022-02-20T01:01:56.442169Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-02-20T01:01:56.447170Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-02-20T01:01:56.463171Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-20T01:01:56.476171Z 0 [Note] InnoDB: The first innodb_system data file 'ibdata1' did not exist. A new tablespace will be created!
+2022-02-20T01:01:56.478172Z 0 [Note] InnoDB: Setting file 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibdata1' size to 10 MB. Physically writing the file full; Please wait ...
+2022-02-20T01:01:56.501173Z 0 [Note] InnoDB: File 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibdata1' size is now 10 MB.
+2022-02-20T01:01:56.510173Z 0 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 size to 5 MB
+2022-02-20T01:01:56.524174Z 0 [Note] InnoDB: Setting log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile1 size to 5 MB
+2022-02-20T01:01:56.549176Z 0 [Note] InnoDB: Renaming log file C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile101 to C:\Users\nemo\Documents\usbwebserver\mysql\data\ib_logfile0
+2022-02-20T01:01:56.554176Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2022-02-20T01:01:56.555176Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-20T01:01:56.556176Z 0 [Note] InnoDB: Setting file 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-20T01:01:56.584178Z 0 [Note] InnoDB: File 'C:\Users\nemo\Documents\usbwebserver\mysql\data\ibtmp1' size is now 12 MB.
+2022-02-20T01:01:56.588178Z 0 [Note] InnoDB: Doublewrite buffer not found: creating new
+2022-02-20T01:01:56.604179Z 0 [Note] InnoDB: Doublewrite buffer created
+2022-02-20T01:01:56.747187Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-02-20T01:01:56.748187Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-02-20T01:01:56.749187Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2022-02-20T01:01:56.756187Z 0 [Note] InnoDB: Foreign key constraint system tables created
+2022-02-20T01:01:56.757187Z 0 [Note] InnoDB: Creating tablespace and datafile system tables.
+2022-02-20T01:01:56.758188Z 0 [Note] InnoDB: Tablespace and datafile system tables created.
+2022-02-20T01:01:56.758188Z 0 [Note] InnoDB: Creating sys_virtual system tables.
+2022-02-20T01:01:56.759188Z 0 [Note] InnoDB: sys_virtual table created
+2022-02-20T01:01:56.760188Z 0 [Note] InnoDB: Waiting for purge to start
+2022-02-20T01:01:56.811191Z 0 [Note] InnoDB: 5.7.36 started; log sequence number 0
+2022-02-20T01:01:56.812191Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-02-20T01:01:56.815191Z 0 [Warning] System table 'plugin' is expected to be transactional.
+2022-02-20T01:01:56.816191Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-02-20T01:01:56.818191Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-02-20T01:01:56.819191Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-02-20T01:01:56.820191Z 0 [Warning] 
+2022-02-20T01:01:56.820191Z 0 [Warning] 
+2022-02-20T01:01:56.822191Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-02-20T01:01:56.822191Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-02-20T01:01:56.823191Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-02-20T01:01:56.824191Z 0 [Note] IPv6 is available.
+2022-02-20T01:01:56.825191Z 0 [Note]   - '::' resolves to '::';
+2022-02-20T01:01:56.825191Z 0 [Note] Server socket created on IP: '::'.
+2022-02-20T01:01:56.827191Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-02-20T01:01:56.880195Z 0 [Warning] System table 'time_zone_leap_second' is expected to be transactional.
+2022-02-20T01:01:56.881195Z 0 [Warning] System table 'time_zone_name' is expected to be transactional.
+2022-02-20T01:01:56.882195Z 0 [Warning] System table 'time_zone' is expected to be transactional.
+2022-02-20T01:01:56.882195Z 0 [Warning] System table 'time_zone_transition_type' is expected to be transactional.
+2022-02-20T01:01:56.883195Z 0 [Warning] System table 'time_zone_transition' is expected to be transactional.
+2022-02-20T01:01:56.885195Z 0 [Warning] System table 'servers' is expected to be transactional.
+2022-02-20T01:01:56.887195Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T01:01:56.888195Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T01:01:56.890195Z 0 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T01:01:56.891195Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2022-02-20T01:01:56.892195Z 0 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T01:01:56.893195Z 0 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-02-20T01:01:56.895195Z 0 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2022-02-20T01:01:56.895195Z 0 [Note] Failed to start slave threads for channel ''
+2022-02-20T01:01:56.896195Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_current: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T01:01:56.898196Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T01:01:56.899196Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_history_long: expected column 'NESTING_EVENT_TYPE' at position 15 to have type enum('TRANSACTION','STATEMENT','STAGE','WAIT', found type enum('STATEMENT','STAGE','WAIT').
+2022-02-20T01:01:56.901196Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.902196Z 0 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.904196Z 0 [ERROR] 
+2022-02-20T01:01:56.905196Z 0 [ERROR] Incorrect definition of table performance_schema.setup_objects: expected column 'OBJECT_TYPE' at position 0 to have type enum('EVENT','FUNCTION','PROCEDURE','TABLE','TRIGGER', found type enum('TABLE').
+2022-02-20T01:01:56.907196Z 0 [ERROR] 
+2022-02-20T01:01:56.908196Z 0 [ERROR] 
+2022-02-20T01:01:56.909196Z 0 [ERROR] 
+2022-02-20T01:01:56.909196Z 0 [ERROR] 
+2022-02-20T01:01:56.909196Z 0 [ERROR] 
+2022-02-20T01:01:56.910196Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.911196Z 0 [ERROR] Incorrect definition of table performance_schema.events_stages_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.913196Z 0 [ERROR] 
+2022-02-20T01:01:56.913196Z 0 [ERROR] 
+2022-02-20T01:01:56.913196Z 0 [ERROR] 
+2022-02-20T01:01:56.914196Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_account_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.915197Z 0 [ERROR] Incorrect definition of table performance_schema.events_statements_summary_by_user_by_event_name: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.917197Z 0 [ERROR] 
+2022-02-20T01:01:56.917197Z 0 [ERROR] 
+2022-02-20T01:01:56.918197Z 0 [ERROR] 
+2022-02-20T01:01:56.918197Z 0 [ERROR] 
+2022-02-20T01:01:56.918197Z 0 [ERROR] 
+2022-02-20T01:01:56.919197Z 0 [ERROR] 
+2022-02-20T01:01:56.919197Z 0 [ERROR] 
+2022-02-20T01:01:56.920197Z 0 [ERROR] 
+2022-02-20T01:01:56.920197Z 0 [ERROR] 
+2022-02-20T01:01:56.921197Z 0 [ERROR] Incorrect definition of table performance_schema.users: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.922197Z 0 [ERROR] Incorrect definition of table performance_schema.accounts: expected column 'USER' at position 0 to have type char(32), found type char(16).
+2022-02-20T01:01:56.925197Z 0 [ERROR] 
+2022-02-20T01:01:56.925197Z 0 [ERROR] 
+2022-02-20T01:01:56.926197Z 0 [ERROR] 
+2022-02-20T01:01:56.926197Z 0 [ERROR] 
+2022-02-20T01:01:56.927197Z 0 [ERROR] 
+2022-02-20T01:01:56.927197Z 0 [ERROR] 
+2022-02-20T01:01:56.928197Z 0 [ERROR] 
+2022-02-20T01:01:56.928197Z 0 [ERROR] 
+2022-02-20T01:01:56.928197Z 0 [ERROR] 
+2022-02-20T01:01:56.929197Z 0 [ERROR] 
+2022-02-20T01:01:56.929197Z 0 [ERROR] 
+2022-02-20T01:01:56.930197Z 0 [ERROR] 
+2022-02-20T01:01:56.930197Z 0 [ERROR] 
+2022-02-20T01:01:56.931197Z 0 [ERROR] 
+2022-02-20T01:01:56.931197Z 0 [ERROR] 
+2022-02-20T01:01:56.931197Z 0 [ERROR] 
+2022-02-20T01:01:56.932197Z 0 [ERROR] 
+2022-02-20T01:01:56.932197Z 0 [ERROR] 
+2022-02-20T01:01:56.933198Z 0 [ERROR] 
+2022-02-20T01:01:56.933198Z 0 [ERROR] 
+2022-02-20T01:01:56.933198Z 0 [ERROR] 
+2022-02-20T01:01:56.934198Z 0 [ERROR] 
+2022-02-20T01:01:56.934198Z 0 [ERROR] 
+2022-02-20T01:01:56.934198Z 0 [ERROR] 
+2022-02-20T01:01:56.935198Z 0 [ERROR] 
+2022-02-20T01:01:56.935198Z 0 [ERROR] 
+2022-02-20T01:01:56.936198Z 0 [ERROR] Incorrect definition of table mysql.db: expected column 'User' at position 2 to have type char(32), found type char(16).
+2022-02-20T01:01:56.937198Z 0 [ERROR] mysql.user has no `Event_priv` column at position 28
+2022-02-20T01:01:56.938198Z 0 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+2022-02-20T01:01:56.939198Z 0 [Note] 
+2022-02-20T01:02:04.706642Z 2 [ERROR] Error message file 'C:\Users\nemo\Documents\usbwebserver\mysql\share\russian\errmsg.sys' had only 886 error messages,
+                    but it should contain at least 1123 error messages.
+                    Check that the above file is the right version for                     this program!

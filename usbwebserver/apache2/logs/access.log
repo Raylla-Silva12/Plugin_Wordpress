@@ -1,0 +1,12 @@
+::1 - - [01/Aug/2022:15:02:15 -0300] "GET / HTTP/1.1" 200 283
+::1 - - [01/Aug/2022:15:02:16 -0300] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [01/Aug/2022:15:02:24 -0300] "GET /wordpress/wp-content/themes/teste/style.css HTTP/1.1" 200 343
+::1 - - [01/Aug/2022:15:02:24 -0300] "GET /wordpress/wp-includes/css/dist/block-library/style.min.css?ver=5.9.3 HTTP/1.1" 200 83419
+::1 - - [01/Aug/2022:15:02:24 -0300] "GET /wordpress/wp-content/themes/teste/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 163873
+::1 - - [01/Aug/2022:15:02:24 -0300] "\x16\x03\x01\x02" 400 226
+::1 - - [01/Aug/2022:15:02:24 -0300] "GET /wordpress/wp-includes/js/wp-emoji-release.min.js?ver=5.9.3 HTTP/1.1" 200 18181
+::1 - - [01/Aug/2022:15:02:24 -0300] "\x16\x03\x01\x02" 400 226
+::1 - - [01/Aug/2022:15:02:18 -0300] "GET /wordpress/ HTTP/1.1" 200 15209
+::1 - - [01/Aug/2022:15:02:24 -0300] "GET /wordpress/wp-content/uploads/2022/05/escola.jpg HTTP/1.1" 200 9230
+::1 - - [01/Aug/2022:15:02:24 -0300] "GET /wordpress/wp-content/themes/teste/imagens/logo.png HTTP/1.1" 200 24180
+::1 - - [01/Aug/2022:15:02:24 -0300] "POST /wordpress/wp-cron.php?doing_wp_cron=1659376944.0552830696105957031250 HTTP/1.1" 500 2740

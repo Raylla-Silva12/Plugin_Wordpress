@@ -1,0 +1,22 @@
+/*
+Theme Name: Teste tema
+Author: Jussimar Leal
+Author URI: http://www.jussimarleal.com.br
+Description: Tema desenvolvido nas aulas de Aplicativos para Web na Etec de Itanhaém 
+Version: 1.0
+
+*/
+
+h1{
+    color:#00F;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.texto p{
+    font-size: 20px;
+}
